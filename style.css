@@ -66,8 +66,8 @@ body {
   height: 500px;
   background-image: url(resources/gal2.jpg);
   background-size:cover;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
   padding-top: 70px;
 }
 
