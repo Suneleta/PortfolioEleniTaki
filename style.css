@@ -63,8 +63,8 @@ body {
   font-size: 22px;
 }
 #mission {
-  height: 700px;
-  background-image: url(resources/gal2.png);
+  height: 800px;
+  background-image: url(resources/gal2.jpg);
   background-size:cover;
   padding-left: 100px;
   padding-right: 100px;
