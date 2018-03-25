@@ -64,7 +64,7 @@ body {
 }
 #mission {
   height: 700px;
-  background-image: url(gal2.jpg);
+  background-image: url(resources/gal2.jpg);
   background-size:cover;
 
   padding-top: 70px;
