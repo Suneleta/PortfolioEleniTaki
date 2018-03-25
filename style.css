@@ -63,7 +63,7 @@ body {
   font-size: 22px;
 }
 #mission {
-  height: 500px;
+  height: 700px;
   background-image: url(resources/gal2.jpg);
   background-size:cover;
   padding-left: 100px;
@@ -155,6 +155,7 @@ p {
 .flex-container .locations {
   margin: 0px 50px;
     padding-top:50px;
+
 }
 #contact {
   display: block;
@@ -177,10 +178,21 @@ h5 {
  }
 
 
+ @media only screen and (max-width: 710px) {
 
+ .flex-container .locations {
+width:100%;
+flex-wrap: wrap;}
+}
 
 
   @media only screen and (max-width: 710px) {
-    footer {
-      justify-content: flex-start;
-    }
+    h5 {
+display:none;    }
+}
+@media only screen and (max-width: 710px) {
+
+.flex-container .items {
+width:100%;
+flex-wrap: wrap;}
+}
