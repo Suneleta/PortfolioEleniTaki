@@ -2,23 +2,18 @@
 <html>
   <head class="container-fluid">
         <title>Eleni Taki/Portfolio</title>
-        <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<script
-  src="https://code.jquery.com/jquery-2.2.4.js"
-  integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
-  crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css?family=Advent+Pro:300|Khula:300|Martel:300" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="icon" href="resources/epsilon.png" type="image/gif" sizes="32x32">
+		     <meta name="description" content="Portfolio">
+		     <meta name="keywords" content="Portfolio, works, Eleni Taki">
+		     <meta name="author" content="Eleni Taki">
+		     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	       <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="icon"
-     type="image/jpg"
-     href="resources/tile.png">
-    <link rel="manifest" href="/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="vendor/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Advent+Pro:300|Khula:300|Martel:300" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style.css">
+
   </head>
   <body>
     <!--Header-->
@@ -26,78 +21,188 @@
       <img id="logo" src="resources/longe.svg">
 
     <nav>
-        <span><a href="#mission">About &nbsp</a></span>
-        <span><a href="#teas">Works &nbsp</a></span>
-        <span><a href="#locations">Contact &nbsp</a></span>
-</nav>
-           </header>
+        <span><a href="#about">About</a></span>
+        <span><a href="#teas">Works</a></span>
+        <span><a href="#locations">Contact</a></span>
+    </nav>
+    </header>
     <!---main-->
-    <div class="main">
+    <section class="main">
       <!--mission-->
-    <div id="mission" class="flex-container">
-      <div class="content">
-        <h1>Eleni Taki</h1>
-
-        <h3>Designer && Front-End Developer</h3>
-</div>
-</div>
-</div>
+        <div id="mission" class="flex-container">
+          <div class="content">
+            <h2>Eleni Taki</h2>
+            <h3>UX Designer && Front-End Developer</h3>
+          </div>
+        </div>
+    </div>
 <!--teas-->
-  <div id="teas">
+    <div id="teas">
+        <div class="col-md-12 col-xs-12 text-center">
+          <div>
+            <h2>Works</h2>
+          </div>
+          <div>
+            <hr>
+            <h3>UX/UI Design</h3>
+            <hr>
+          </div>
+
+        </div>
+          <div class="flex-container items">
+              <div class="item col-md-12 col-xs-12">
+                <video width="550" height="320" controls>
+                  <source src="resources/video.mp4" type="video/mp4">
+                  <source src="movie.ogg" type="video/ogg">
+                  Your browser does not support the video tag.
+                </video>
+                <span><a href="https://www.youtube.com/watch?v=9bN2C1_1Buw" target="_blank">TravelMate</a> </span>
+              </div>
+              <a href="https://projects.invisionapp.com/share/WKM751QJTU7#/screens" target="_blank">
+                <div class="item col-md-12 col-xs-12" id="travelmate"><img src="resources/logo.png">
+                  <span>TravelMate Invision</span>
+              </a>
+                </div>
+            <a href="https://projects.invisionapp.com/share/KUN296BGSJ7#/screens" target="_blank">
+              <div class="item col-md-4 col-xs-12" id="sonar"><img src="resources/prototype.png">
+                <span>sonAR </span>
+            </a>
+              </div>
+
+            </div>
+          <div>
+            <hr>
+            <h3>Front-end/Landing Pages</h3>
+            <hr>
+          </div>
+        <div class="flex-container items">
+          <a href="http://ux-avant.elisava.net/" target="_blank">
+            <div class="item col-md-4 col-xs-12"><img src="resources/uxavant.jpg">
+              <span>UX-Avant</span>
+          </a>
+            </div>
+          <a href="http://a14.elisava.net/travelmate/" target="_blank">
+            <div class="item col-md-4 col-xs-12"><img src="resources/tm.jpg">
+              <span>Travelmate </span>
+          </a>
+            </div>
+            <a href="http://a14.elisava.net/mashups/" target="_blank">
+              <div class="item col-md-4 col-xs-12"><img src="resources/animalpaws.jpg">
+                <span>Animal Paws </span>
+            </a>
+              </div>
+            <a href="https://suneleta.github.io/waveit/" target="_blank">
+              <div class="item col-md-4 col-xs-12"><img src="resources/waveit.jpg">
+                <span>WaveIt </span>
+            </a>
+              </div>
+            <a href="https://suneleta.github.io/teacozy-project/" target="_blank"/>
+              <div class="item col-md-4 col-xs-12"><img src="resources/tea.jpg">
+                  <span>Teacozy</span>
+            </a>
+                </div>
+                <a href="https://suneleta.github.io/colmar_project/" target="_blank"/>
+                  <div class="item col-md-4 col-xs-12"><img src="resources/colmar.jpg">
+                    <span> Academy</span>
+                </a>
+                  </div>
+              <a href="https://suneleta.github.io/bdesign/" target="_blank"/>
+                <div class="item col-md-4 col-xs-12"><img src="resources/bd.jpg">
+                  <span>Broadway</span>
+              </a>
+                </div>
+            <a href="https://suneleta.github.io/excursion.github.io/" target="_blank"/>
+              <div class="item col-md-4 col-xs-12"><img src="resources/excursion.jpg">
+                <span>Excursion</span>
+            </a>
+              </div>
+              <div class="col-md-12 col-xs-12 text-center">
+                <div>
+                  <hr>
+                  <h3>Case Studies/Strategy</h3>
+                  <hr>
+                </div>
+              </div>
+              <div class="flex-container items">
+                <a href="resources/travelmate.pdf" target="_blank">
+                  <div class="item col-md-4 col-xs-12"><img src="resources/travelmatedoc.png">
+                    <span>TravelMate</span>
+                </a>
+                  </div>
+                <a href="resources/partypets.pdf" target="_blank">
+                  <div class="item col-md-4 col-xs-12"><img src="resources/partypets.png">
+                    <span>Party Pets</span>
+                </a>
+                  </div>
+                  <a href="resources/sonar.pdf" target="_blank">
+                    <div class="item col-md-4 col-xs-12"><img src="resources/sonar.png">
+                      <span>sonAR</span>
+                  </a>
+                    </div>
+                </div>
+              <div class="col-md-12 col-xs-12 text-center">
+
+                <div>
+                  <hr>
+                  <h3>Front-end/Games</h3>
+                  <hr>
+                </div>
+              </div>
+              <div class="flex-container items">
+                <a href="http://a14.elisava.net/mashups/" target="_blank">
+                  <div class="item col-md-4 col-xs-12"><img src="resources/animalpaws.jpg">
+                    <span>Animal Paws </span>
+                </a>
+                  </div>
+                  <a href="https://suneleta.github.io/gamematch/" target="_blank">
+                    <div class="item col-md-4 col-xs-12"><img src="resources/match.jpg">
+                      <span>Matchgame</span>
+                  </a>
+                    </div>
+                  <a href="https://suneleta.github.io/rockpaperscissors/" target="_blank"/>
+                    <div class="item col-md-4 col-xs-12"><img src="resources/rps.png">
+                      <span>Rock/paper/scissors</span>
+                  </a>
+                    </div>
+                </div>
+
+            </div>
+        <!---Contact-->
+        <section id="about">
+          <div class="col-md-12 col-xs-12 text-center">
+            <div>
+              <hr>
+              <h3>About</h3>
+            </div>
+            <div>
+              <p>
+                UI/UX Designer and front-end developer deeply interested in simple design that is flawlessly implemented after constant reiteration and user feedback. Eager to learn more and always open to new challenges.
 
 
-<h1>Works</h1>
-  <h3>Front-end projects</h3>
-<div class="flex-container items">
-
-
-  <div class="item"><img src="resources/match.jpg">
-<span><a href="https://suneleta.github.io/gamematch/" target="_blank">Matchgame</a> </span>
-</div>
-
-<div class="item"><img src="resources/colmar.jpg">
-<span><a href="https://suneleta.github.io/colmar_project/" target="_blank"/> Academy</a></span>
-</div>
-
-<div class="item"><img src="resources/tea.jpg">
-<span><a href="https://suneleta.github.io/teacozy-project/" target="_blank"/>Teacozy</a></span>
-</div>
-
-<div class="item"><img src="resources/bd.jpg">
-  <span><a href="https://suneleta.github.io/bdesign/" target="_blank"/>Broadway</a></span>
-</div>
-
-
-<div class="item"><img src="resources/excursion.jpg">
-  <span><a href="https://suneleta.github.io/excursion.github.io/" target="_blank"/>Excursion</a></span>
-</div>
-</div>
-</div>
-
-
-
-
-<!---Locations-->
-<div id="locations">
-  <h2>Contact</h2>
-  <div class="flex-container locations">
-    <div class="location">
-<h3><a href="https://outlook.live.com/" target="_blank"/>elenhtakh@gmail.com</a></h3>
-</div>
-<div class="location">
-  <h3><a href="https://github.com/"  target="_blank"/>github.com/Suneleta</a></h3>
-</div>
-<div class="location">
-  <h3><a href="https://www.linkedin.com/in/eleni-taki/" target="_blank target="_blank/>linkedin.com/eleni-taki</a>/</h3>
-</div>
-</div>
-</div>
-</div>
+              </p>
+            </div>
+        </section>
+        <section id="contacts">
+          <div>
+            <h3>Contact</h3>
+            <hr>
+          </div>
+          <div class="flex-container contacts row">
+              <div class="contact col-md-4">
+                <span><a href="https://outlook.live.com/" target="_blank"/>elenhtakh@gmail.com</a></span>
+              </div>
+              <div class="contact col-md-4">
+                <span><a href="https://github.com/"  target="_blank"/>github.com/Suneleta</a></span>
+              </div>
+              <div class="contact col-md-4">
+                <span><a href="https://www.linkedin.com/in/eleni-taki/" target="_blank target="_blank/>linkedin.com/eleni-taki</a>/</span>
+              </div>
+          </div>
+        </div>
+      </section>
 <!---contact-->
 
 <!--footer-->
-<footer>
-<h5>copyright </h5>
-</footer>
+
   </body>
 </html>
