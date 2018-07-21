@@ -78,11 +78,10 @@ body {
      rgba(50, 50, 50, 0.45),
      rgba(50, 50, 50, 0.45)
    ),
-   url(resources/mypicture.jpeg) no-repeat top fixed;
+   url(resources/mypicture.JPG) no-repeat top fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: contain;
   padding-top: 70px;
   margin: 0px;
 
