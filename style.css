@@ -128,7 +128,6 @@ div {
 }
 .item {
   width:100%;
-  height: 60%;
   }
 
 .item img {
@@ -185,21 +184,27 @@ h5 {
   height: auto;
 }
 
-   @media only screen and (max-width: 710px) {
+   @media only screen and (max-width: 767px) {
 
      .flex-container .contacts {
     width:100%;
     flex-wrap: wrap;}
+    h5 {
+      display:none;    }
+
+      .flex-container .items {
+
+        width:100%;
+        flex-wrap: wrap;}
+
+        .item img {
+        height: auto;
+        width:500px;
+        margin: 10px;
+        display: flex-grow;
+        }
+        html {
+          font-size: 30px;
+        }
+
     }
-
-
-    @media only screen and (max-width: 710px) {
-        h5 {
-    display:none;    }
-    }
-  @media only screen and (max-width: 710px) {
-
-    .flex-container .items {
-    width:100%;
-    flex-wrap: wrap;}
-  }
