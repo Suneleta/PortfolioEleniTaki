@@ -81,7 +81,6 @@ body {
    url(resources/mypicture.jpg) no-repeat top fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover;
   padding-top: 70px;
   margin: 0px;
 
@@ -206,5 +205,25 @@ h5 {
         html {
           font-size: 30px;
         }
-
+        h3 {
+          font-size: 90px;
+        }
+        p {
+          font-size: 60px;
+        }
+        h2 {
+          font-size: 100px;
+        }
+        .contact {
+          font-size: 60px;
+        }
+        nav {
+          visibility: hidden;
+        }
+        #mission {
+          height: 1700px;
+        }
+        .item span {
+          font-size: 50px;
+        }
     }

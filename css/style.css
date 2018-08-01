@@ -184,21 +184,12 @@ h5 {
  }
 
 
- @media only screen and (max-width: 710px) {
+ @media only screen and (max-width: 600px) {
 
- .flex-container .locations {
-width:100%;
-flex-wrap: wrap;}
-}
-
-
-  @media only screen and (max-width: 710px) {
-    h5 {
-display:none;    }
-}
-@media only screen and (max-width: 710px) {
-
-.flex-container .items {
-width:100%;
-flex-wrap: wrap;}
+  .about-text {
+    font-size: 60px;
+  }
+  h3 {
+    font-size: 90px;
+  }
 }
