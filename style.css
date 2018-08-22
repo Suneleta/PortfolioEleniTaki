@@ -183,7 +183,7 @@ h5 {
   height: auto;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 767px) and (min-width:300px) {
 
   .flex-container .contacts {
  width:100%;
